@@ -6,5 +6,5 @@ def get_lucky_nums():
 if __name__ == '__main__':
     times = int(input('Enter num(1-100): '))
     for i in range(times):
-        print(get_lucky_nums())
+        print(sorted(get_lucky_nums()))
 
